@@ -1,5 +1,5 @@
 {% set name = "imia" %}
-{% set version = "0.4.0" %}
+{% set version = "0.5.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/imia-{{ version }}.tar.gz
-  sha256: f4338b5f60e1fc5d6f00516c0742aca4b22ecfd8c184323af6245b7844233050
+  sha256: 23d0064dfa59a0b2bd22d3235b0718f8cfdf928f5300aaa9c23bce9b93972027
 
 build:
   number: 0
